@@ -29,7 +29,7 @@ export default function Home() {
   <main className="main">
   <section id="hero" className="hero section dark-background">
 
-      <img src="/esmat bg cut.jpg" alt="" data-aos="fade-in"/>
+      <img src="/assets/img/my-photo/esmat-bg-cut.jpg" alt="" data-aos="fade-in"/>
 
       <div className="container" data-aos="fade-up" data-aos-delay="100">
         <div className="row justify-content-center">
@@ -74,7 +74,7 @@ export default function Home() {
             <div className="profile-card">
               <div className="profile-header">
                 <div className="profile-avatar">
-                  <img src="Esmat profile.jpg" className="img-fluid" alt=""/>
+                  <img src="/assets/img/my-photo/esmat-profile.jpg" className="img-fluid" alt=""/>
                   <div className="status-indicator"></div>
                 </div>
                 <h3>Esmat Elham</h3>
