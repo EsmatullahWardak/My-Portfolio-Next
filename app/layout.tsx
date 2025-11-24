@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
-import InitScripts from "./_components/InitScripts";
 import ClientOnly from "./ClientOnly";
 
 const geistSans = Geist({
@@ -51,7 +50,6 @@ export default function RootLayout({
         <ClientOnly>
 
         {children}
-        <InitScripts />
         </ClientOnly>
           <Script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js" strategy="afterInteractive"/>
   <Script src="/assets/vendor/php-email-form/validate.js" strategy="afterInteractive"/>
