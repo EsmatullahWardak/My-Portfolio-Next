@@ -963,7 +963,7 @@ export default function Home() {
         <div className='container copyright text-center mt-4'>
           <p>
             © <span>Copyright</span>{" "}
-            <strong className='px-1 sitename'>Craftivo</strong>{" "}
+            <strong className='px-1 sitename'>Esmatullah Elham</strong>{" "}
             <span>All Rights Reserved</span>
           </p>
           <div className='credits'>
