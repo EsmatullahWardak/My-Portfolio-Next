@@ -24,3 +24,17 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+/* Force all hidden sections to show up */
+[data-aos] {
+  opacity: 1 !important;
+  transform: none !important;
+  visibility: visible !important;
+}
+
+section {
+  display: block !important;
+  min-height: 100px;
+  background-color: transparent !important;
+}
